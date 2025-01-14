@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <input type="number" id="km" placeholder="km">
+    <div>
+        <input type="number" id="km" placeholder="km">
 
-    <select id="eta">
-        <option value="maggiorenne">Maggiorenne</option>
-        <option value="minorenne">Minorenne</option>
-        <option value="senior">Over 65</option>
-    </select>
+        <select id="eta">
+            <option value="maggiorenne">Maggiorenne</option>
+            <option value="minorenne">Minorenne</option>
+            <option value="senior">Over 65</option>
+        </select>
 
-    <button id="conferma">Conferma</button>
+        <button id="conferma">Conferma</button>
+    </div>
+    <div>
+        <h3>BIGLIETTO</h3>
+        <span id="etaScelta">Eta selezionata:</span>
+        <span id="prezzo">Il prezzo è:</span>
 
+    </div>
     <script src="./js/script.js"></script>
 </body>
+
 </html>
